@@ -1,0 +1,267 @@
+
+* { padding: 0; margin: 0; }
+.inpname{
+    width: 218px;
+    height: 28px;
+    margin: auto;
+
+
+}
+.zom{
+
+    min-height: 100vh !important;
+    height: 100%;
+}
+.colo{
+
+    color: black;
+}
+.formBox {
+    width: 360px;
+    /* height: 170px; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 12;
+    display: none;
+    text-align: center;
+    background-color: #be9342;
+    border-radius: 10px;
+}
+.screenBlur {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 60%;
+    z-index: 1;
+}
+
+#loggin h2 {
+    font-weight: bold;
+    text-align: center;
+}
+#loggin h6 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.flex{
+
+    display: flex;
+}
+
+.submite-cancel {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}  
+.text p{
+
+font-size: 20px;
+
+}
+#back_arrow{
+
+    display: block;
+}
+.viss{
+
+    visibility: hidden;
+}
+#booking{
+
+
+    background-color: #be9342;
+    border-radius: 0%;
+}
+
+#booking a{
+
+
+   color: black;
+   text-decoration: underline;
+}
+#booking label{
+
+
+    font-size: 22px;
+ }
+#booking a:hover{
+
+
+    color: red;
+ }
+
+ .formBox3{
+
+    width: 360px;
+    /* height: 425px; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 5;
+    display: none;
+    text-align: center;
+    background-color: #be9342;
+    border-radius: 0%;
+ }
+ .formBox4{
+
+    
+    height: 50%;
+    overflow: auto;
+ }
+ .formbox5 {
+    width: 35%;
+    height: 70%;
+    overflow: auto;
+ }
+ .formBox6{
+    height: 70%;
+    overflow: auto;
+ }
+ .time{
+
+    text-align: center;
+
+ }
+
+ #timing{
+
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    height: 70%;
+ }
+ .time:hover{
+
+    color: darkgoldenrod;
+
+ }
+
+ .buton{
+
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+ }
+ #back-arrow,#back-arroww{
+     background-image: url("../images/left-arrow.png");
+     width: 32px;
+     height: 32px;
+     /* margin-top: 20px; */
+     display: block;
+     
+
+ }
+ .header_time{
+
+    /* background: #f5b335; */
+    /* height: 25%; */
+    /* position: fixed; */
+    /* top: 0; */
+    
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    display: block;
+    
+ }
+.time_title{
+
+    margin-top: -30px;
+    margin-left: 10px;
+}
+ .vertical-line-1 {
+    width: 100%;
+    height: 0px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    /* background-color: #ebebeb; */
+}
+.day_week ,.days_click{
+
+    cursor: pointer;
+}
+.hid3{
+
+    visibility: hidden;
+}
+.days{
+
+    margin-right: 40px;
+}
+.formBox6 h2{
+margin: 0 auto;
+
+
+}
+
+.formBox6 .vertical-line-1{
+    margin-top: 15px;
+    
+    
+}
+
+.delete-button{
+   position: relative;
+   right: -160px;
+    border: none;
+    background-image: url("../images/delete-icon.png");
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.delete-admin{
+    border: none;
+    background-image: url("../images/delete-icon.png");
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+
+    float: right;
+
+
+}
+
+/* .b:hover{
+
+   color: #be9342;
+   background-color: transparent;
+
+   transition: 0.5s background-color;
+} */
+
+.b,.c{
+
+    border-radius: 15px;
+    border: 1px solid black;
+ 
+    border-radius: 25px;
+}
+.mar-icon{
+
+    margin-top: 10px
+}
